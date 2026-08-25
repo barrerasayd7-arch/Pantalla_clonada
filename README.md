@@ -19,3 +19,8 @@ Decisión: los datos (saldo, movimientos, juegos, partidos) están fijos directa
 flutter pub get
 flutter run
 ```
+
+## Usuario y contraseña para iniciar sesión
+usuario: admin
+contraseña: 1234
+
