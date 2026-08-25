@@ -1,17 +1,21 @@
-# flutter_application_1
+# BetPlay Clon
 
-A new Flutter project.
+App de apuestas deportivas y casino, clonada visualmente a partir de BetPlay. El objetivo era practicar cómo estructurar pantallas, navegación y estado compartiendo un mismo diseño (colores, tarjetas, barra inferior) entre secciones distintas.
 
-## Getting Started
+## Las pantallas
 
-This project is a starting point for a Flutter application.
+* `HomeScreen` — resumen de saldo, accesos rápidos y jackpots.
+* `DeporteScreen` — deportes, eventos en vivo y combinadas sugeridas.
+* `CasinoScreen` — categorías de juegos, torneos y recomendados.
+* `BilleteraScreen` — saldo, recargas/retiros y movimientos.
+* `PerfilScreen` — datos de sesión, información personal y ajustes.
+* `BottomNav` — widget compartido que navega entre las 5 pantallas.
 
-A few resources to get you started if this is your first Flutter project:
+Decisión: los datos (saldo, movimientos, juegos, partidos) están fijos directamente en cada pantalla, sin modelos ni backend, porque el foco era la interfaz, no la lógica de negocio.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Cómo correrlo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub get
+flutter run
+```
