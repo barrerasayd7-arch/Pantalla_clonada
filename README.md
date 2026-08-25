@@ -11,7 +11,7 @@ App de apuestas deportivas y casino, clonada visualmente a partir de BetPlay. El
 * `PerfilScreen` — datos de sesión, información personal y ajustes.
 * `BottomNav` — widget compartido que navega entre las 5 pantallas.
 
-Decisión: los datos (saldo, movimientos, juegos, partidos) están fijos directamente en cada pantalla, sin modelos ni backend, porque el foco era la interfaz, no la lógica de negocio.
+Decisión: los datos (saldo, movimientos, juegos, partidos) están fijos directamente en cada pantalla.
 
 ## Cómo correrlo
 
